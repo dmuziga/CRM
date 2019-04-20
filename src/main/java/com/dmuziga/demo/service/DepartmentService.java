@@ -12,6 +12,9 @@ public interface DepartmentService  {
 
     public List<Department> findAll();
     public List<DeptEmpDto> customeQuery();
+    public void createExcelFile(String filePath, List<DeptEmpDto> deptEmpDtos);
+
+
 
 
 
